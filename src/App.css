@@ -1,0 +1,165 @@
+.sidebar{
+  width: 60px;
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  background-color: #fff;
+}
+.bistyle{
+  cursor: pointer;
+  margin: 5px 0px;
+  padding:5px 10px;
+  border-radius: 10px;
+}
+.bistyle:hover{
+  background-color: #4935FF;
+  color: #fff;
+}
+.accounthodler{
+  padding: 20px 20px;
+  background-color: #FAFAFA;
+}
+.text-blue{
+  color: #4935FF;
+}
+.marginstart{
+  margin-left: 60px;
+}
+/* Income.jsx */
+.smallerfont{
+  font-size: 12px;
+}
+.incomeborderbtm{
+  padding-bottom: 5px;
+  border-bottom: 2px solid #4935FF;
+}
+.percentage{
+  width: 50px;
+  height: 50px;
+  border: 2px solid green;
+  padding: 40px;
+  border-radius: 50%;
+}
+/* strategy */
+.strategy{
+  padding: 20px;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+}
+input[type='range']{
+  width:90%;
+}
+.updatebtn{
+  background-color: #4935FF;
+  color: #fff;
+  width: 100%;
+  border-color:transparent;
+  border-radius: 10px;
+}
+.limtxt{
+  font-size: 14px;
+  opacity: 0.5;
+}
+.learntxt{
+  font-size: 15px;
+  text-decoration: none;
+}
+.learntxt:hover{
+  text-decoration: underline;
+}
+.bi-chevron-right{
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: -3px;
+}
+.leftborder{
+  border-left: 1px solid #4935FF;
+}
+.mediasidebar{
+  flex-direction:column;
+}
+.flexcol{
+  flex-direction: column;
+  margin-top: 15px;
+}
+.mobile-caret{
+  display: none;
+}
+.percentincomehalf{
+  width: 50%;
+}
+.withdral-fssmall{
+  font-size: 14px;
+  margin-top: -8px;
+}
+.fsmedium{
+  font-size: 13.5px;
+}
+
+/* mobile version */
+@media (max-width:768px){
+  .accounthodler{
+    background-color: #fff;
+    padding: 0;
+  }
+  .accountbggray{
+    background-color: #FAFAFA;
+  }
+  .mobile-hidden{
+    display: none;
+  }
+  .mobile-caret{
+    display: inline-block;
+  }
+  .select{
+    width: 100%;
+  }
+
+  .sidebar{
+    width: -60px;
+    position: relative;
+    height: 0;
+  }
+  .desktop-icon-caret{
+    display: none;
+  }
+  .logo{
+    display: none;
+  }
+  .mediasidebar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+  }
+  .flexcol{
+    flex-direction: row;
+    margin-top: 0;
+  }
+  .mediaflex{
+    flex-direction: row-reverse;
+    background-color: #fff;
+
+  }
+  .marginstart{
+    margin-left: 0;
+  }
+  .bistyle{
+    padding: 10px 20px;
+  }
+  .bi-bell{
+    position: fixed;
+    top: 15px;
+    right: 10px;
+  }
+  .bi-box-arrow-right{
+    display: none;
+  }
+  .recharts-wrapper {
+    width: 200px;
+  }
+}
